@@ -56,7 +56,7 @@ ADD backup /etc/backup.d/
 RUN chmod 0600 /etc/backup.* -R
 
 
-EXPOSE 23 81 8001 3307 444
+EXPOSE 22 80 8000 3306 443
 
 ENTRYPOINT ["/sbin/init"]
 
