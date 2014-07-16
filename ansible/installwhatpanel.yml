@@ -13,4 +13,4 @@
     docker: image=paimpozhil/data name="{{ doname }}" tty=yes 
 
   - name: run whatpanel container
-    docker: image=paimpozhil/whatpanel volumes_from="{{ doname }}"  ports=8001:8001,81:81,2223:23,444:444
+    docker: image=paimpozhil/whatpanel volumes_from="{{ doname }}"  ports=8000:8000,80:80,2222:22,443:443

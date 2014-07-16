@@ -13,7 +13,7 @@ transfertype=$5
 
 if [ "$cpport" == "" ] ;
 then
-cpport=23
+cpport=22
 fi
 
 
